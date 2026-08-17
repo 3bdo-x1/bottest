@@ -1,0 +1,14 @@
+{
+  "name": "dyno-lite-host-runner",
+  "version": "2.0.0",
+  "private": true,
+  "description": "24/7 supervisor for dyno-lite bots. Pulls bots to run from the dashboard API and keeps them alive.",
+  "main": "runner.js",
+  "scripts": {
+    "start": "node runner.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {}
+}

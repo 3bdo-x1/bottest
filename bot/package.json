@@ -1,0 +1,20 @@
+{
+  "name": "dyno-lite",
+  "version": "2.0.0",
+  "private": true,
+  "description": "All-in-one Discord bot: moderation, auto-mod, channel systems, unique commands + a Postgres-backed web dashboard.",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "register": "node index.js --register-only",
+    "test": "node --no-warnings test/smoke.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "discord.js": "^14.16.3",
+    "pg": "^8.13.1"
+  }
+}

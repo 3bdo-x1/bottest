@@ -1,0 +1,8 @@
+{
+  "DISCORD_TOKEN": "MTUzODgyMDg1NDcxOTQ1NTIzMg.GWVHOE.xolcn7ag0an8BwdKzYrs_0q2-qKEbPelrZ3oKs",
+  "GUILD_ID": "1536391692557488239",
+  "DATABASE_URL": "postgresql://postgres:postgres@127.0.0.1:5432/app_db",
+  "BOT_SECRET": "dyno-lite-bridge-secret",
+  "BOT_PORT": "3001",
+  "LOG_LEVEL": "info"
+}

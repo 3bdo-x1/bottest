@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/host/keepalive",
+      "schedule": "*/5 * * * *"
+    }
+  ],
+  "functions": {
+    "src/app/**/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
